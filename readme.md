@@ -1,7 +1,8 @@
 **Adobe Color Palette Used**
+
  #0F172A, #2563EB, #1D4ED8, #FFFFFF, #F8FAFC
 
- My Adobe color palette is accessible here: "https://color.adobe.com/create/color-wheel?color-palette=0F172A%2C2563EB%2C1D4ED8%2CFFFFFF%2CF8FAFC&color-palette-name=My+Color+Theme"
+ My Adobe color palette is accessible here: https://color.adobe.com/create/color-wheel?color-palette=0F172A%2C2563EB%2C1D4ED8%2CFFFFFF%2CF8FAFC&color-palette-name=My+Color+Theme
 
  I used this color palette in order for the website to be easily readable to everybody. I chose a color scheme that I thought and understood was compliant with modern accessibility standards.
 
@@ -12,7 +13,7 @@
 
 **All BASE Code used was sourced from the lectures with the exception of minor CSS elements such as: "text-decoration:none; , transition:transform 0.2s ease, box-shadow 0.2s ease;" used within the CSS files.**
 
-These css elements were sourced from the following links:"https://www.w3schools.com/css/css_text_decoration.asp", "https://thoughtbot.com/blog/transitions-and-transforms", and "https://www.w3schools.com/cssref/css3_pr_box-shadow.php".
+These css elements were sourced from the following links: https://www.w3schools.com/css/css_text_decoration.asp , https://thoughtbot.com/blog/transitions-and-transforms , and https://www.w3schools.com/cssref/css3_pr_box-shadow.php .
 
 **Viewport dimensions used and why**
 For my webpage I used 3 seperate CSS files for different viewports to make my website responsive to different screen dimensions. 
