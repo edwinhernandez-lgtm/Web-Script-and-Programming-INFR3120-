@@ -30,7 +30,7 @@ button:hover{
     box-shadow: -10px -10px 5px #0F172A;
     border-radius: 5px;
 }
-
+ /* Desktop fixed 960px container*/
 #wrapper{
     width: 960px;
     min-height:100%;
