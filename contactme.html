@@ -2,7 +2,9 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <!--Title Bar-->
         <title>Contact Me | Portfolio</title>
+         <!--Responsive Stylesheets using media queries-->
         <meta name="viewport" content="width=device-width">
         <!--Full sized monitor display CSS Stylesheet-->
         <link href="full.css" rel="stylesheet" type="text/css" 
@@ -16,8 +18,10 @@
     </head>
 <body>
     <div id="wrapper">
+        <!--Semantic header with navigation bar-->
         <header>
             <h1>Contact Me</h1>
+            <!--Main site navigation bar linking all pages together-->
             <nav>
                     <a href="index.html">Home Page</a> 
                     <a href="aboutme.html">About Me</a>
@@ -26,7 +30,7 @@
             </nav>
             <div class="clear"></div>
         </header>
-
+        <!--Main site content (semantic article element)-->
         <article>
             <h2>Contact Me</h2>
             <p>Feel Free to reach out!</p>
@@ -36,35 +40,38 @@
                 <p>Send me your questions, comments and project related inquiries by filling out the contact form below.<br> I typically respond within 1-3 Business days.</p>
             </section>
 
+
             <section>
                 <h3>Inquiry/Contact Form</h3>
+                <!--Contact form Using HTML5 input validation-->
                 <form class="contactform" action="mailto:edwin.hernandez@ontariotechu.net" method="post" enctype="text/plain" name="contactform">
+                    <!--First name field-->
                     <p>
                         <label for="Fname">First Name :</label>
                         <input type="text" id="Fname" name="Fname" placeholder="Enter your first name" required>
                     </p>
-
+                    <!--Last name field-->
                     <p>
                         <label for="Lname">Last Name :</label>
                         <input type="text" id="Lname" name="Lname" placeholder="Enter Your Last Name" required>
                     </p>
-
+                    <!--Email field-->
                     <p>
                         <label for="email">Email :</label>
                         <input type="email" id="email" name="email" placeholder="Enter Your Email Address" required>
                     </p>
-
+                    <!--Phone number field-->
                     <p>
                         <label for="phone">Cell Number :</label>
                         <input type="tel" id="phone" name="phone" placeholder="000-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
                     </p>
-
+                    <!--Comments/message field-->
                     <p>
                         <label for="comments">Comments :</label>
                         <br>
                         <textarea id="comments" name="comments" rows="6" placeholder="Enter Your Comments/Message" required></textarea>
                     </p>
-
+                    <!--Form Submit & Reset buttons-->
                     <p>
                         <input type="submit" value="Submit Form">
                         <input type="reset" value="Reset Form">
@@ -72,6 +79,7 @@
                 </form>
             </section>
         </article>
+    <!--Semantic footer for contact email and website copyright-->
     <footer>
     <p>Email:
         <a href="mailto:edwin.hernandez@ontariotechu.net">

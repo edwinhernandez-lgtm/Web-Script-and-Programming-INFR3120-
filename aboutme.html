@@ -2,7 +2,9 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+         <!--Title Bar-->
         <title>About Me | Portfolio</title>
+         <!--Responsive Stylesheets using media queries-->
         <meta name="viewport" content="width=device-width">
         <!--Full sized monitor display CSS Stylesheet-->
         <link href="full.css" rel="stylesheet" type="text/css" 
@@ -16,8 +18,10 @@
     </head>
 <body>
     <div id="wrapper">
+         <!--Semantic header with navigation bar-->
         <header>
             <h1>Learn About Me</h1>
+            <!--Main site navigation bar linking all pages together-->
             <nav>
                     <a href="index.html">Home Page</a> 
                     <a href="aboutme.html">About Me</a>
@@ -26,7 +30,7 @@
             </nav>
             <div class="clear"></div>
         </header>
-
+        <!--Main site content (semantic article element)-->
         <article>
             <h2>About Me</h2>
             <p>Welcome to my background overview. Below you will find details on my Academics, Skills and Hobbies.</p>
@@ -34,11 +38,13 @@
             <section class="aboutme-intro">
                 <h3>Introduction</h3>
                 <p>Watch this short introduction video.</p>
+                <!--Introduction video with legacy browser support, video controls, poster image, and video source-->
                 <video controls preload="auto" poster="Poster.png" class="IntroductionVideo">
                     <source src="introductionVideo.mp4" type="video/mp4">
                     <source src="introductionVideo.ogv" type="video/ogg">
                     Your Browser doesn't support embedded video.
                 </video>
+                <!--Website photo using semantic figure tag and using accessible alt text-->
                 <figure class="ImageOfMe">
                     <img src="Photo.jpg" alt="Photo of Edwin Hernandez" class="PhotoOfMe">
                     <figcaption>Edwin Hernandez</figcaption>
@@ -66,6 +72,7 @@
                 <div class="clear"></div>
             </section>
         </article>
+    <!--Semantic footer for contact email and website copyright-->    
     <footer>
     <p>Email:
         <a href="mailto:edwin.hernandez@ontariotechu.net">
